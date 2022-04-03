@@ -1,0 +1,14 @@
+<div class="text-center">
+
+    <form [formGroup]="userForm" (ngSubmit)="subUser()">
+        <h1>login</h1>
+        <div>
+            <input formControlName="user" type="text" class="form-controle" placeholder="name">
+        </div>
+        <br>
+        <div id="fr">
+            <input formControlName="pass" type="password" class="form-controle" placeholder="password">
+        </div>
+
+    </form>
+</div>
